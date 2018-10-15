@@ -1,0 +1,5 @@
+---
+- name: "Restart mysql" # Make change of the first letter to capital to match the Notify in the DB role
+  service:
+    name: mysql
+    state: restarted
